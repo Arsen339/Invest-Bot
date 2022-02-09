@@ -27,7 +27,7 @@ def file_check():
 
 print(file_check())
 
-bot = telebot.TeleBot("5250211346:AAGaDXB2kgyyx0e84c_SnIqluSuAEbmljNk")
+bot = telebot.TeleBot("")
 
 
 @bot.message_handler(commands=['start'])
